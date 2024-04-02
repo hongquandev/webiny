@@ -1,3 +1,4 @@
+import { buttonClickHandlers } from './../../../../extensions/pb-button-click-handlers/render';
 // Elements
 import accordion from "@webiny/app-page-builder/editor/plugins/elements/accordion";
 import accordionItem from "@webiny/app-page-builder/editor/plugins/elements/accordionItem";
@@ -154,5 +155,7 @@ export default [
     responsiveEditorMode(),
     // Page settings
     pageSettingsPlugins,
-    spaceX
+    spaceX,
+    // Custom button callback handler
+    buttonClickHandlers
 ];
