@@ -43,6 +43,7 @@ import width from "@webiny/app-page-builder/render/plugins/elementSettings/width
 // Responsive mode
 import responsiveMode from "@webiny/app-page-builder/render/plugins/responsiveMode";
 import spaceX from "./spaceX/website";
+import { buttonClickHandlers } from "../../../../extensions/pb-button-click-handlers/render";
 
 export default [
     // Elements
@@ -89,4 +90,6 @@ export default [
     property,
     responsiveMode(),
     spaceX,
+    // Custom button callback handler
+    buttonClickHandlers
 ];

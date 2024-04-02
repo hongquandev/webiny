@@ -1,3 +1,4 @@
+import { buttonClickHandlers } from './../../../extensions/pb-button-click-handlers/render';
 /**
  * Plugins specific to the "website" app.
  */
@@ -127,5 +128,8 @@ export default [
     carouselElementSettings,
     carouselStylesSettings,
     responsiveMode(),
-    spaceX
+    spaceX,
+
+    // Custom callback handler
+    buttonClickHandlers
 ];
